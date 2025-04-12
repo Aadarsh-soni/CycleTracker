@@ -183,7 +183,7 @@ const useLocation = ({
       if (locationSubscription.current) {
         locationSubscription.current.remove();
         locationSubscription.current = null;
-      }
+      }// fdsfkgjn
       
       locationSubscription.current = await Location.watchPositionAsync(
         {
