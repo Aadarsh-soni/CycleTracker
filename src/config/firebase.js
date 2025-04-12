@@ -27,9 +27,9 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
+  apiKey: "AIzaSyAMNTmGB-CLp9w7g8od3nJ2w8cv9jc-5Yg",
+  authDomain: "cycle-tracker-6343b.firebaseapp.com",
+  projectId: "cycle-tracker-6343b",
   storageBucket: "YOUR_PROJECT_ID.appspot.com",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID",
