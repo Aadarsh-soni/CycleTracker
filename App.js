@@ -7,10 +7,10 @@ import * as Font from 'expo-font';
 import { Asset } from 'expo-asset';
 
 // Navigation
-import Navigation from './navigation';
+import Navigation from './src/navigation/index';
 
 // Styles
-import colors from './styles/colors';
+import colors from './src/config/colors';
 
 // Ignore specific logs
 LogBox.ignoreLogs([

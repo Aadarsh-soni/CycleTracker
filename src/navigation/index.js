@@ -7,14 +7,14 @@ import * as SplashScreen from 'expo-splash-screen';
 import AppNavigator from './AppNavigator';
 
 // Context Providers
-import { AuthProvider } from '../context/AuthContext';
-import { TrackingProvider } from '../context/TrackingContext';
+import { AuthProvider } from '../contexts/AuthContext';
+import { TrackingProvider } from '../contexts/TrackingContext';
 
 // Configuration
 import { initializeFirebase } from '../config/firebase';
 
 // Styles
-import colors from '../styles/colors';
+import colors from '../config/colors';
 
 // Keep the splash screen visible while we initialize
 SplashScreen.preventAutoHideAsync();
